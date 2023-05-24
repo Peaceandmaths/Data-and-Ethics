@@ -1,0 +1,164 @@
+{UTF-8}
+Amygdala  = A FUNCTION OF( Images from MRI)
+	~	
+	~		|
+
+Business intelligence pole  = A FUNCTION OF( ICU USZ)
+	~	
+	~		|
+
+Data types  = A FUNCTION OF( Delirium study)
+	~	
+	~		|
+
+Delirium study  = A FUNCTION OF( ICU USZ,Patients,Researchers)
+	~	
+	~		|
+
+Heartbeat  = A FUNCTION OF( Time series from physiological meaurements)
+	~	
+	~		|
+
+Hyppocampus  = A FUNCTION OF( Images from MRI)
+	~	
+	~		|
+
+ICU USZ  = A FUNCTION OF( )
+	~	
+	~		|
+
+Images from MRI  = A FUNCTION OF( Data types)
+	~	
+	~		|
+
+Original  = A FUNCTION OF( Data types)
+	~	
+	~		|
+
+Other measurements  = A FUNCTION OF( Time series from physiological meaurements)
+	~	
+	~		|
+
+Other regions of the brain  = A FUNCTION OF( Images from MRI)
+	~	
+	~		|
+
+Patients  = A FUNCTION OF( )
+	~	
+	~		|
+
+Proccessed  = A FUNCTION OF( Data types)
+	~	
+	~		|
+
+Researchers  = A FUNCTION OF( )
+	~	
+	~		|
+
+Time series from physiological meaurements  = A FUNCTION OF( Data types)
+	~	
+	~		|
+
+Transpiration  = A FUNCTION OF( Time series from physiological meaurements)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,56,0
+10,1,ICU USZ,180,279,51,51,2,3,0,4,-1,0,0,0,0-0-0,255-0-0,|||0-0-0,0,0,0,0,0,0
+10,2,Delirium study,393,352,63,63,2,3,0,4,-1,0,0,0,0-0-0,255-128-0,|||0-0-0,0,0,0,0,0,0
+10,3,Business intelligence pole,183,483,77,77,2,3,0,4,-1,0,0,0,0-0-0,255-128-0,|||0-0-0,0,0,0,0,0,0
+10,4,Images from MRI,831,252,75,75,2,3,0,4,-1,0,0,0,0-0-0,255-255-0,|||0-0-0,0,0,0,0,0,0
+10,5,Time series from physiological meaurements,835,487,91,91,2,3,0,4,-1,0,0,0,0-0-0,255-255-0,|||0-0-0,0,0,0,0,0,0
+10,6,Hyppocampus,1189,68,54,54,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,7,Amygdala,1191,194,49,49,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,8,Other regions of the brain,1200,320,47,47,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,9,Original,617,199,65,65,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,10,Proccessed,626,487,71,71,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,11,Heartbeat,1201,427,47,47,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,12,Transpiration,1197,536,49,49,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,13,Other measurements,1190,659,58,58,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,14,Patients,395,526,60,60,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,15,Researchers,390,180,70,70,2,3,0,4,-1,0,0,0,0-0-0,255-255-255,|||0-0-0,0,0,0,0,0,0
+10,16,Data types,613,337,49,49,2,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,17,1,3,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,18,1,2,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,19,15,2,1,0,0,0,0,192,0,-1--1--1,,1|(387,249)|
+1,20,14,2,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,21,16,9,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,22,16,10,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,23,16,4,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,24,16,5,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,25,2,16,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,26,4,6,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,27,4,7,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,28,4,8,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,29,5,11,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,30,5,12,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+1,31,5,13,0,0,0,0,0,192,0,-1--1--1,,1|(0,0)|
+///---\\\
+:L<%^E!@
+5:Patients
+19:56,0
+24:0
+25:0
+26:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:1
+72:0
+73:0
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Courier|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
